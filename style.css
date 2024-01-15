@@ -1,6 +1,6 @@
 body {
     margin: 0;
-
+    font-family: 'Courier New', Courier, monospace;
 }
 
 ul {
@@ -25,8 +25,16 @@ img {
     border-radius: 60px;
 }
 
+button{ 
+       margin-top: 14px;
+       padding: 10px 20px 10px;
+       color: #FFF;
+       background-color: #3882F6;
+       border-radius: 5px;
+       border: #3882F6;
+   }
 .header {
-    padding: 20px 400px 10px ;
+    padding: 20px 400px 10px;
     background-color: #1F2937;
     color: #FFF;
     display: flex;
@@ -36,7 +44,7 @@ img {
 }
 
 .logo {
-    font-size:40px;
+    font-size: 40px;
 }
 
 .nav {
@@ -57,7 +65,7 @@ img {
 
 .herotext {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .herosecondary {
@@ -65,11 +73,89 @@ img {
     color: #E5E7EB;
 }
 
-.tbutt {
-    margin-top: 14px;
-    padding: 10px 20px 10px;
-    color: #FFF;
+.info {
+    padding: 20px 400px 70px;
+}
+
+.infotext {
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.bcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
     background-color: #3882F6;
-    border-radius: 5px;
-    border: #3882F6;
+    border-radius: 10px;
+
+}
+
+.textbox {
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.inspo {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 150px;
+    text-align: center;
+}
+
+.qcredit {
+    padding-top: 20px;
+    text-align: right;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.container {
+    padding: 50px; 
+    background-color: #3882F6;
+    color:#FFF;
+    border-radius: 10px;
+    width: 1050px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ctaheadtext {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.bbutt{
+    border: 2px solid white;
+}
+
+.footer{ 
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    text-align: center;
 }
